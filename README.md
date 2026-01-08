@@ -14,7 +14,7 @@
 The Fibonacci sequence can be computed without recursion or iteration. Using a direct mathematical relationship between the sequence index and its value, allowing for constant-time computation. 
 
 # Complexity
-- Time complexity: $$O(1)$$
+- Time complexity: $$O(\text{log} n)$$
 
 # Approach
 ## Statement of the problem
@@ -195,7 +195,7 @@ public:
     }
 };
 ```
-It already runs in `0 ms` on LeetCode, but memory usage is relatively high (beats only `21%`of solutions for memory usage)
+It already runs in `0 ms` on LeetCode, but memory usage is relatively high (beats only `21%`of solutions for memory usage). Complexity is $$O(\text{log} n)$$ because of `pow` complexity.
 
 ## Optimization
 Let $\varphi := \lambda_1 = \dfrac{1+\sqrt5}{2}$ (the golder ratio).
