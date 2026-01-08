@@ -11,7 +11,7 @@
   - [Easiest solution](#easiest-solution)
  - [Conclusion](#conclusion)
 # Intuition
-The Fibonacci sequence can be computed without recursion or iteration. Using a direct mathematical relationship between the sequence index and its value, allowing for constant-time computation. 
+The Fibonacci sequence can be computed without recursion or iteration. Using a direct mathematical relationship between the sequence index and its value, allowing for log-time computation. 
 
 # Complexity
 - Time complexity: $$O(\text{log} n)$$
