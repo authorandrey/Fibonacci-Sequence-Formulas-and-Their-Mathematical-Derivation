@@ -220,7 +220,7 @@ Let $\psi := \lambda_2 = \dfrac{1-\sqrt5}{2}$; $\xi_n := \varphi_n - \dfrac{\var
 
 Therefore $\xi_n = -\dfrac{\psi^n}{\sqrt5} = (-1)^{n+1}\dfrac{\varphi^{-n}}{\sqrt5}$
 
-Notice that $\varphi>1$ and $\varphi^{-n}0$ when $n\to\infty$
+Notice that $\varphi>1$ and $\varphi^{-n}\rightarrow 0$ when $n\to\infty$
 
 So $||\xi_n||_\infty = \max_n |\xi_n| = \max_n \dfrac{\varphi^{-n}}{\sqrt5} = |\xi_0| = \dfrac{1}{\sqrt5} < 0.5$
 
